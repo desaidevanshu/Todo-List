@@ -30,7 +30,7 @@ const Task = ({ task, updateTask, toggleTaskCompletion }) => {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           />
-          <button onClick={handleUpdate}>Save</button>
+          <button onClick={handleUpdate}>Save Task</button>
         </div>
       ) : (
         
