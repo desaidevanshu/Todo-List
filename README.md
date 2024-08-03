@@ -1,8 +1,13 @@
-# TODO List 
+## TODO List 
+# Key Funtion
 -This website will help the user to create todo list for their daily use and to keep the record of the task      which our completed and which are not.
+<br>
 -Help the user to see when the task were add using the time stamp provided with each task added.
+<br>
 -Users can search through the task list
 
+# Implementation
+    
 # You can view this website through
 https://todolistdev.vercel.app/
 
