@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A2708A;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.app-title {
+  text-align: center;
+  font-family: 'Calibri', sans-serif;
+  font-style: italic;
+  font-size:36px;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Task Form */
+form {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+input[type=text],
+input{
+ border-radius: 20px;
+ width:70%;
+ padding: 10px;
+ margin-left:10px;
+}
+
+textarea {
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:#824670;
+  color:white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin:20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: blueviolet;
+  cursor:grabbing;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+}
+
+
+/* Search Input */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Task List */
+.task-item {
+  background-color:#C3D2D5;
+  padding: 15px;
+  margin:10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.task-item p {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #666;
+}
+
+.task-item small {
+  display: block;
+  margin-bottom: 10px;
+  color: #999;
+  align-content: left;
+}
+
+.task-item button {
+  margin-right: 20px;
+}
+
+.task-item button:last-child {
+  margin-right: 0;
+}
+.clear-search-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color:#824670;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clear-search-btn:hover {
+  background-color:blueviolet;
+}
+
+.not-found {
+  text-align: center;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
