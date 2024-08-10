@@ -7,8 +7,14 @@
 -Users can search through the task list
 
 # Implementation
-    
+#  You can use this 
+http://localhost:3000  
+# Using npm
+ In terminal :
+ npm run build
+ npm start
 # You can view this website through
+http://localhost:3000  
 https://todolistdev.vercel.app/
 
 
