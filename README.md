@@ -12,6 +12,7 @@ http://localhost:3000
 # Using npm
  In terminal :
  npm run build
+ <br>
  npm start
 # You can view this website through
 http://localhost:3000  
